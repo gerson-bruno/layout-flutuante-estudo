@@ -8,7 +8,7 @@ O objetivo é praticar organização de arquivos, uso de imagens, estilos e GitH
 ## 🔗 Acesse a página online
 
 Clique aqui para ver a página funcionando no navegador:  
-[🌐 Ver Página Online](https://gerson-bruno.github.io/pagina-pessoal-estudo/)
+[🌐 Ver Página Online](https://gerson-bruno.github.io/layout-flutuante-estudo/)
 
 ---
 
