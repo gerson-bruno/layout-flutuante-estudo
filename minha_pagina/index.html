@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Página</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      max-width: 900px;
+      margin: 32px auto;
+      padding: 0 16px;
+      padding-bottom: 60px; /* espaço para o rodapé fixo */
+    }
+
+    h1 { color: #0056b3; font-weight: bold; }
+    h2 { color: #007bff; margin-bottom: 24px; }
+    h3 { color: #3399ff; margin-top: 32px; }
+
+    p {
+      line-height: 1.6;
+      color: #555;
+      text-align: justify;
+      margin: 0 0 16px 0;
+    }
+
+    /* BLOCO COM IMAGEM À DIREITA */
+    .intro {
+      overflow: hidden; /* faz o bloco englobar a imagem */
+    }
+
+    .intro img {
+      float: right;
+      width: 230px;
+      height: 230px;
+      border-radius: 50%;
+      margin-left: 16px;
+      margin-bottom: 8px;
+    }
+
+    /* REDES SOCIAIS */
+    .redes {
+      display: flex;
+      gap: 12px;
+      margin-top: 12px;
+    }
+
+    .redes a {
+      text-decoration: none;
+    }
+
+    .redes img {
+      width: 30px;
+      height: 30px;
+      display: block;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        padding: 12px 0;
+        background-color: #e0e0e0;
+        color: #555;
+        font-size: 0.9rem;
+        border-top: 1px solid #ccc;
+        z-index: 1000; /* garante que fique acima de outros elementos */
+    }
+
+
+  </style>
+</head>
+
+<body>
+
+  <h1>Gerson Bruno</h1>
+
+  <h2>
+    Estudante de Análise e Desenvolvimento de Sistemas.<br>
+    Desenvolvedor Web, estudando HTML, CSS e JavaScript.
+  </h2>
+
+  <div class="intro">
+    <img src="images/profile.png" alt="Foto de Perfil">
+    
+    <p>
+      Bem-vindo à minha página pessoal! Aqui você encontrará informações sobre meus estudos e projetos relacionados ao desenvolvimento web.
+    </p>
+
+    <p>
+      Atualmente, estou focado em aprender as tecnologias fundamentais para a criação de sites e aplicações web, incluindo HTML para estruturação de conteúdo, CSS para estilização e JavaScript para interatividade.
+    </p>
+
+    <p>
+      Estou entusiasmado com as possibilidades que o desenvolvimento web oferece e estou ansioso para aplicar meus conhecimentos em projetos práticos.
+    </p>
+
+    <p>
+      Obrigado por visitar minha página!
+    </p>
+  </div>
+
+  <h3>Meus Perfis nas Redes Sociais:</h3>
+
+  <div class="redes">
+    <a href="https://www.linkedin.com/in/gerson-bruno-baptista-2421b2163/" target="_blank">
+      <img src="images/linkedin.png" alt="LinkedIn">
+    </a>
+    <a href="https://github.com/gerson-bruno" target="_blank">
+      <img src="images/github.png" alt="GitHub">
+    </a>
+    <a href="https://www.instagram.com/gerson.bruno_/" target="_blank">
+      <img src="images/instagram.png" alt="Instagram">
+    </a>
+    <a href="https://wa.link/00ywzj" target="_blank">
+      <img src="images/whatsapp.png" alt="WhatsApp">
+    </a>
+    <a href="https://discord.gg/EAa5ZbNw" target="_blank">
+      <img src="images/discord.png" alt="Discord">
+    </a>
+    <a href="mailto:gerson.bruno.baptista@gmail.com">
+      <img src="images/gmail.png" alt="Email">
+    </a>
+  </div>
+
+<footer>
+  © 2026 Gerson Bruno. Todos os direitos reservados.
+</footer>
+
+</body>
+</html>
